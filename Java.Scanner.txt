@@ -15,5 +15,13 @@ public class HelloWorld {
 
         // println() prints the following line to the output screen
         System.out.println("You entered: " + number);
+        
+        String str1 = "Java is fun";
+    int result;
+
+    // getting index of character 's'
+    result = str1.indexOf('s');
+
+    System.out.println(result);
     }
 }
